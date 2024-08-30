@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator_task.css">
+</head>
+<body>
+    <div class="full">
+    <div class="div1"><h2><center>Calculator</center></h2>
+     <div ><input type="text" id="display"> </div>  
+    </div>
+    <div  class="div2">
+        <button  id="b1"  onclick="pre7()">7</button>
+        <button id="b2" onclick="pre8()">8</button>
+        <button id="b3" onclick="pre9()">9</button>
+        <button id="b4" onclick="modulo()">%</button>
+        <button id="b5" onclick="div()">/</button>
+        <button id="b6" onclick="pre4()">4</button>
+        <button id="b7" onclick="pre5()">5</button>
+        <button id="b8" onclick="pre6()">6</button>
+        <button id="b9" onclick="mul()">*</button>
+        <button id="b10" onclick="min()">-</button>
+        <button id="b11" onclick="pre1()">1</button>
+        <button id="b12" onclick="pre2()">2</button>        
+        <button id="b13" onclick="pre3()">3</button>
+        <button id="b14" onclick="add()">+</button>
+        <button id="b15" onclick="pre0()">0</button>
+        <button id="b16" onclick="pre00()">00</button>
+        <button id="b17" onclick="dot()">.</button>
+        <button id="b18" onclick="clr()">C</button>
+        <button id="b19" onclick="ans()">Ans</button>
+    </div>
+</div>
+    <script src="calculator_task.js"></script>
+</body>
+</html>
