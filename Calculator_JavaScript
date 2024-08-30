@@ -1,0 +1,97 @@
+function pre7()
+{
+    c=7;
+    document.getElementById("display").value+=c;
+}
+function pre8()
+{
+    c=8;
+    document.getElementById("display").value+=c;
+}
+function pre9()
+{
+    c=9;
+    document.getElementById("display").value+=c;
+}
+function modulo()
+{
+    var c='%'
+    document.getElementById("display").value+=c;
+}
+function div()
+{
+    var c='/'
+    document.getElementById("display").value+=c;
+
+}
+function pre4()
+{
+    c=4;
+    document.getElementById("display").value+=c;
+}
+function pre5()
+{
+    c=5;
+    document.getElementById("display").value+=c;
+}
+function pre6()
+{
+    c=6;
+    document.getElementById("display").value+=c;
+}
+function mul()
+{
+    c='*';
+    document.getElementById("display").value+=c;
+}
+function min()
+{
+   c='-';
+   document.getElementById("display").value+=c;
+}
+function pre1()
+{
+    c=1;
+    document.getElementById("display").value+=c;
+}
+function pre2()
+{
+    c=2;
+    document.getElementById("display").value+=c;
+}
+function pre3()
+{
+    c=3;
+    document.getElementById("display").value+=c;
+}
+function add()
+{
+    c='+';
+    document.getElementById("display").value+=c;
+}
+function pre0()
+{
+    c=0;
+    document.getElementById("display").value+=c;
+}
+function pre00()
+{
+    c='00';
+    document.getElementById("display").value+=c;
+}
+function dot()
+{
+    c='.';
+    document.getElementById("display").value+=c;
+}
+
+function ans()
+{
+  var data=document.getElementById("display").value;
+  var ans=eval(data);
+  document.getElementById("display").value=ans;
+}
+function clr()
+{
+    document.getElementById("display").value=null;
+}
